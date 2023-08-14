@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connectoes\dbConncector.cs" />
+    <Compile Include="Connectoes\IConnector.cs" />
+    <Compile Include="Connectoes\IdbConncector.cs" />
+    <Compile Include="Connectoes\MSSqlServer\ISimpleConnector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\IAzadDbProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
